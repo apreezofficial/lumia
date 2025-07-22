@@ -17,7 +17,7 @@
             <div class="bg-gray-800/50 rounded-xl p-8 border border-gray-700 hover:border-secondary-light transition-all duration-300">
                 <div class="flex items-center mb-6">
                     <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
-                        <img src="/assets/images/clients/adesua.jpg" alt="Adesua Adeyemi" class="w-full h-full object-cover">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcGfxr45JL3GYtaMsYYW1ZTyVEJ402f8Vc8lVDtTmQg1Yj8KyZIxoHlJs&s" alt="Adesua Adeyemi" class="w-full h-full object-cover">
                     </div>
                     <div>
                         <h4 class="text-white font-medium">Adesua Adeyemi</h4>
@@ -34,7 +34,7 @@
             <div class="bg-gray-800/50 rounded-xl p-8 border border-gray-700 hover:border-secondary-light transition-all duration-300">
                 <div class="flex items-center mb-6">
                     <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
-                        <img src="/assets/images/clients/kofi.jpg" alt="Kofi Mensah" class="w-full h-full object-cover">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc5fdShJSDTKQYw-jYvFcvcLZn8PUdGH7Eq_nCTiEGbOu--4qASO5T2Tg&s" alt="Kofi Mensah" class="w-full h-full object-cover">
                     </div>
                     <div>
                         <h4 class="text-white font-medium">Kofi Mensah</h4>
@@ -51,7 +51,7 @@
             <div class="bg-gray-800/50 rounded-xl p-8 border border-gray-700 hover:border-secondary-light transition-all duration-300">
                 <div class="flex items-center mb-6">
                     <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
-                        <img src="/assets/images/clients/amina.jpg" alt="Amina Yusuf" class="w-full h-full object-cover">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWsugNkd00FgmaB4CziVHumtK4gAvbmp_4vnfdMTfD8gpVRMPgWXG7Ws4&s" alt="Amina Yusuf" class="w-full h-full object-cover">
                     </div>
                     <div>
                         <h4 class="text-white font-medium">Amina Yusuf</h4>
