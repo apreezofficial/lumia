@@ -7,9 +7,20 @@ error_reporting(0);
             <!-- Logo/Brand -->
             <div class="flex-shrink-0 flex items-center">
                 <a href="index.php" class="flex items-center space-x-3 group">
-                    <div class="w-9 h-9 rounded-lg bg-gradient-to-br from-primary-light to-secondary-light flex items-center justify-center transform group-hover:rotate-12 transition duration-300">
-<img src="/assets/logo.jpg" loading="lazy">
-                    </div>
+<div class="w-10 h-10 rounded-xl overflow-hidden bg-gradient-to-br from-primary-light to-secondary-light p-[2px] group-hover:rotate-6 transition-transform duration-300 shadow-lg">
+    <picture>
+        <source srcset="/assets/logo.jpg" type="image/webp" />
+        <img 
+            src="/assets/logo.jpg" 
+            alt="Lumia Logo" 
+            width="40" 
+            height="40" 
+            loading="lazy" 
+            decoding="async"
+            class="w-full h-full object-cover rounded-[0.6rem]"
+        />
+    </picture>
+</div>
                     <span class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary-light to-secondary-light tracking-tight">LUMIA</span>
                 </a>
             </div>
@@ -67,9 +78,20 @@ error_reporting(0);
 <div id="mobile-side-nav" class="fixed inset-y-0 left-0 w-64 bg-dark-light/95 backdrop-blur-lg transform -translate-x-full transition-transform duration-300 ease-in-out z-50 shadow-2xl border-r border-secondary-dark/20">
     <div class="flex justify-between items-center p-4 border-b border-gray-800">
         <div class="flex items-center space-x-3">
-            <div class="w-9 h-9 rounded-lg bg-gradient-to-br from-primary-light to-secondary-light flex items-center justify-center">
-<img src="/assets/logo.jpg">
-            </div>
+<div class="w-10 h-10 rounded-xl overflow-hidden bg-gradient-to-br from-primary-light to-secondary-light p-[2px] group-hover:rotate-6 transition-transform duration-300 shadow-lg">
+    <picture>
+        <source srcset="/assets/logo.jpg" type="image/webp" />
+        <img 
+            src="/assets/logo.jpg" 
+            alt="Lumia Logo" 
+            width="40" 
+            height="40" 
+            loading="lazy" 
+            decoding="async"
+            class="w-full h-full object-cover rounded-[0.6rem]"
+        />
+    </picture>
+</div>
             <span class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary-light to-secondary-light tracking-tight">LUMIA</span>
         </div>
         <button id="close-side-nav" class="p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700">
@@ -94,7 +116,7 @@ error_reporting(0);
             ?>
             
             <div class="absolute bottom-6 left-0 right-0 px-6">
-                <a href="get-quote.php" class="block w-full px-4 py-3 rounded-lg text-lg font-medium text-center text-white bg-gradient-to-r from-primary-light to-secondary-light hover:from-primary-dark hover:to-secondary-dark shadow-lg transition-all duration-300">
+                <a href="quote.php" class="block w-full px-4 py-3 rounded-lg text-lg font-medium text-center text-white bg-gradient-to-r from-primary-light to-secondary-light hover:from-primary-dark hover:to-secondary-dark shadow-lg transition-all duration-300">
                     Get Started
                     <svg xmlns="http://www.w3.org/2000/svg" class="inline ml-2 h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
