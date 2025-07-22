@@ -4,7 +4,7 @@
         <!-- Section Header -->
         <div class="text-center mb-16">
             <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
-                Meet Our <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-light to-secondary-light">Dream Team</span>
+                Meet Our <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-light to-secondary-light">Team</span>
             </h2>
             <p class="text-lg text-gray-300 max-w-2xl mx-auto">
                 The brilliant minds behind Lumia's innovative solutions from around the globe.
@@ -110,6 +110,18 @@
     'color' => 'crimpson',
     'linkedin' => 'https://www.linkedin.com/in/ciza-bahati-victoire-78a8892a9/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     'github' => '#',
+    'portfolio' => '#'
+],
+[
+    'name' => 'faraja maha',
+    'role' => 'Frontend Developer (React, Next.js)',
+    'country' => 'Uganda',
+    'flag' => 'https://flagcdn.com/ug.svg', 
+    'image' => 'https://your-image-link.jpg',
+    'description' => 'Focuses on responsive UI/UX using React, Tailwind, and modern frontend tools.',
+    'color' => 'green',
+    'linkedin' => '#linkedin.com/farajamaha',
+    'github' => '#github.com/mahafaraja',
     'portfolio' => '#'
 ],
             ];

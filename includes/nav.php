@@ -1,4 +1,6 @@
-<?php include "includes/pdo.php"; ?>
+<?php include "includes/pdo.php";
+error_reporting(0);
+?>
 <nav class="bg-dark-light/90 backdrop-blur-md border-b border-secondary-dark/20 sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
@@ -6,7 +8,7 @@
             <div class="flex-shrink-0 flex items-center">
                 <a href="index.php" class="flex items-center space-x-3 group">
                     <div class="w-9 h-9 rounded-lg bg-gradient-to-br from-primary-light to-secondary-light flex items-center justify-center transform group-hover:rotate-12 transition duration-300">
-<img src="/assets/logo.jpg">
+<img src="/assets/logo.jpg" loading="lazy">
                     </div>
                     <span class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary-light to-secondary-light tracking-tight">LUMIA</span>
                 </a>
